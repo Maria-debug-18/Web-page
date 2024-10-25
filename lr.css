@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    position: relative;
+    height: 300px;
+    background-color: #003366;
+    text-align: center;
+}
+
+.header-content {
+    position: relative;
+}
+
+.header-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-text {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 24px;
+}
+
+.header-text p {
+    font-size: 18px;
+}
+
+.about {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style: none;
+    line-height: 1.6;
+}
+
+.achievements {
+    background-color: #e6e6e6;
+    padding: 40px;
+    text-align: center;
+}
+
+.achievements h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.achievements .certificates {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.certificates img {
+    width: 200px;
+    height: auto;
+}
+
+.experience {
+    background-color: #fff;
+    padding: 40px;
+    text-align: left;
+}
+
+.experience h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.experience .years p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+}
